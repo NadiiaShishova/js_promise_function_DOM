@@ -21,6 +21,9 @@ const printMessage = (message) => {
   document.body.appendChild(div);
 };
 
+window.waitFor = waitFor;
+window.printMessage = printMessage;
+
 window.addEventListener('DOMContentLoaded', () => {
   const loginField = document.getElementById('login');
   const passwordField = document.getElementById('password');
